@@ -17,13 +17,13 @@ It is tested with both Rails 3.0.x and Rails 3.1.x and should work with 3.2.x
   * Tested with OTRS 3.x
 
 ==How to install
-    gem 'otrs_connector'
+  gem 'otrs_connector'
 
 ===Configuration Options Rails
 Put these in your environment configuration, change based on your setup:
-    OTRS.user = 'rails'
-    OTRS.password = 'rails'
-    OTRS.api_url = 'http://localhost/otrs/json.pl'
+  OTRS.user = 'rails'
+  OTRS.password = 'rails'
+  OTRS.api_url = 'http://localhost/otrs/json.pl'
 
 The username/password should be setup as agents in your OTRS setup.
 Make sure the agent has proper permissions to access what you need from the API.
@@ -37,10 +37,10 @@ The iPhone handle must have the right permissions to access otrs. Edit in the sy
 
 ==Usage
 
-	1.9.3-p0 :006 > OTRS::Ticket.search(:TicketNumber => "100001")
-	=> 2
-	1.9.3-p0 :005 > OTRS::Ticket.find(2)
-	=> #<OTRS::Ticket:0xabb9c84 ..... >
+  1.9.3-p0 :006 > OTRS::Ticket.search(:TicketNumber => "100001")
+  => 2
+  1.9.3-p0 :005 > OTRS::Ticket.find(2)
+  => #<OTRS::Ticket:0xabb9c84 ..... >
 
 
 == Contributing to otrs_connector
