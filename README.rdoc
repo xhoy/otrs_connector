@@ -13,7 +13,7 @@ It is tested with both Rails 3.0.x and Rails 3.1.x and should work with 3.2.x
 
 == Compatibility
 * 1.5.3
-  
+
   Tested with Rails 3.x (but 4 should work as well)
   Tested with OTRS 3.x
 
