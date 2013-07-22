@@ -33,16 +33,16 @@ The API url is the custom API interface file described above.
 Install the IPhone handle {package}[httpsdoc.otrs.org/3.0/en/html/adminarea-package-manager.html].
 
 The iPhone handle must have the right permissions to access otrs. Edit in the sysconfig option
-```
+
 	iPhone::API::Object###TicketObject => (MoveList|MoveTicket|TicketGet|Ticket|NumberLookup|TicketSearch)
-```
+
 ==Usage
-```
+
 	1.9.3-p0 :006 > OTRS::Ticket.search(:TicketNumber => "100001")
 	=> 2
 	1.9.3-p0 :005 > OTRS::Ticket.find(2)
 	=> #<OTRS::Ticket:0xabb9c84 ..... >
-```
+
 
 == Contributing to otrs_connector
  
